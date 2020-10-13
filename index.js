@@ -173,14 +173,14 @@ export default class Openpay extends Component {
 
     render() {
         const labels = {
-            name: "Full Name",
-            number: "Number",
-            expiry: "Expiration Date",
-            cvc: "Security Code"
+            name: "Nombre completo",
+            number: "Número",
+            expiry: "Expiración",
+            cvc: "Código seguridad"
         };
 
         const placeholders = {
-            name: "Holder's Name",
+            name: "Nombre",
             number: "**** **** **** ****",
             expiry: "MM/YY",
             cvc: "CVV"
